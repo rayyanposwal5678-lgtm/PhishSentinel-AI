@@ -1,0 +1,35 @@
+{
+  "results": {
+    "Logistic Regression": {
+      "accuracy": 0.9786663688149224,
+      "cv_mean": 0.9769617425300196,
+      "cv_std": 0.0009500712558617151
+    },
+    "Random Forest": {
+      "accuracy": 0.9868759075170334,
+      "cv_mean": 0.9835520804244624,
+      "cv_std": 0.0006919582068340448
+    },
+    "Naive Bayes": {
+      "accuracy": 0.9578912096503965,
+      "cv_mean": 0.9568975146607093,
+      "cv_std": 0.0013555932605439488
+    },
+    "Linear SVM": {
+      "accuracy": 0.9858706578800402,
+      "cv_mean": 0.983761519128735,
+      "cv_std": 0.0006127648214882033
+    },
+    "Gradient Boosting": {
+      "accuracy": 0.9228191667597453,
+      "cv_mean": 0.9217257749232057,
+      "cv_std": 0.001932392863220146
+    }
+  },
+  "best_model": "Random Forest",
+  "best_accuracy": 0.9868759075170334,
+  "classes": [
+    "Legitimate",
+    "Phishing"
+  ]
+}
